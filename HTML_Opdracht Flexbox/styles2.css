@@ -1,0 +1,110 @@
+body{
+    font-family: Arial;
+    background-color:honeydew;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border: 2px gray dotted;
+    border-radius: 15px;
+    padding:20px 50px 20px 50px;
+}
+
+nav{
+    margin: 20px 0px 20px 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+nav li{
+    display: inline;
+    margin: 15px;
+}
+
+main {
+    background-color: #ffffff;
+    font-weight:50;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+footer {
+    background-color: darkslategrey;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.block{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: turquoise;
+}
+
+a:active{
+    color:green;
+}
+
+h1{
+    color:darkslategrey;
+}
+
+h1, h2 {
+    font-weight: 100;
+    }
+
+h2{
+    background-color: darkslategrey;
+    color: white;
+}
+
+.coupon {
+	width: 450px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed #ccc; }
+
+@media (min-width: 1024px){
+    body {
+        background-color:rgb(176, 211, 233);
+    }
+
+    main {
+        color: teal;
+        font-size: smaller;
+        line-height: 30px;
+    }
+}
+    
+.blogpost {
+    width: 300px;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .blogpost-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <title> Mijn eerste opdracht met HTML forms </title>
+</head>
+
+<header>
+
+    <h1>Welkom bij leren programmeren met Silta </h1>
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="contact.html"> Contact</a></li>
+    </ul>
+</nav>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+
+        <p>
+            <label>E-mailadres: <input type="email" name="email" /></label>
+        </p>
+
+        <p>
+            <label>Bericht: <textarea name="bericht" rows="10" cols="60">Dit is een tekstveld.</textarea></label>
+        </p>
+
+        <p>
+            <button type="submit">Verzenden</button>
+        </p>
+    </form>
